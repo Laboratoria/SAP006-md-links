@@ -1,7 +1,14 @@
 {
   "name": "md-links",
   "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
   "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "pretest": "eslint .",
+    "lint": "eslint ."
+  },
   "dependencies": {
     "chalk": "^5.0.0"
   },
@@ -9,6 +16,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^8.5.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.3"
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15"
   }
 }
