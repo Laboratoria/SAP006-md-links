@@ -33,7 +33,7 @@ No terminal, executar o comando:
 
 Após a instalação, execute a lib com o comando `md-links-caroalvim caminho/do/arquivo.md`
 
-`Lembre-se que o caminho do arquivo pode ser relativo ao diretório de onde você está executando a lib, ou absoluto.`
+*** Lembre-se que o caminho do arquivo pode ser relativo ao diretório de onde você está executando a lib, ou absoluto.
 
 
 
