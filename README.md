@@ -9,4 +9,4 @@
 - nao encontrando, emitir msg avisando que não há links;
 - caso encontre links, retornar lista com os links identificados;
 - analisar se os links funcionam;
-- 
+- npm run cli validar
