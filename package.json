@@ -1,5 +1,5 @@
 {
-  "name": "@caroalvim/md-links",
+  "name": "md-links-caroalvim",
   "version": "1.0.0",
   "main": "cli.js",
   "license": "ISC",
@@ -21,7 +21,7 @@
     "email" : "caro.alvim@gmail.com"
   },
   "bin": {
-    "@caroalvim/md-links": "./cli.js"
+    "md-links-caroalvim": "./cli.js"
   },
   "preferGlobal": true,
   "scripts": {
