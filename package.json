@@ -1,6 +1,6 @@
 {
   "name": "md-links-caroalvim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "cli.js",
   "license": "ISC",
   "type": "module",
@@ -17,8 +17,8 @@
   "description": "Lib to identify links in markdown files and check http status",
   "homepage": "https://github.com/caroAlvim/SAP006-md-links",
   "bugs": {
-    "url" : "https://github.com/caroAlvim/SAP006-md-links/issues",
-    "email" : "caro.alvim@gmail.com"
+    "url": "https://github.com/caroAlvim/SAP006-md-links/issues",
+    "email": "caro.alvim@gmail.com"
   },
   "bin": {
     "md-links-caroalvim": "./cli.js"
