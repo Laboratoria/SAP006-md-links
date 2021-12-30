@@ -1,6 +1,6 @@
 # Markdown Links
 
-Desenvolvido com 🍕 e ☕️ por [Carolina Alvim.](https://www.linkedin.com/in/carolina-alvim/)
+Desenvolvido com 🍕 e ☕️ por [Carolina Alvim.](https://github.com/caroAlvim/)
 
 ## Resumo
 
@@ -31,7 +31,7 @@ No terminal, executar o comando:
 
 `npm i md-links-caroalvim`
 
-Após a instalação, execute a lib com o comando `md-links-caroalvim caminho/do/arquivo.md`
+Após a instalação, execute a lib com o comando `md-links-caroalvim <path-to-file>`
 
 *** Lembre-se que o caminho do arquivo pode ser relativo ao diretório de onde você está executando a lib, ou absoluto.
 
@@ -40,7 +40,7 @@ Após a instalação, execute a lib com o comando `md-links-caroalvim caminho/do
 ## Implementações futuras
 
 - Aperfeiçoar testes;
-- Hacker edition;
+- Estatísticas;
 
 
 
