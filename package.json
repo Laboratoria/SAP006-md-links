@@ -1,7 +1,10 @@
 {
   "name": "md-links-caroalvim",
   "version": "1.0.1",
-  "main": "cli.js",
+  "main": "./cli.js",
+  "bin": {
+    "md-links-caroalvim": "./cli.js"
+  },
   "license": "ISC",
   "type": "module",
   "keywords": [
@@ -20,13 +23,10 @@
     "url": "https://github.com/caroAlvim/SAP006-md-links/issues",
     "email": "caro.alvim@gmail.com"
   },
-  "bin": {
-    "md-links-caroalvim": "./cli.js"
-  },
   "preferGlobal": true,
   "scripts": {
     "test": "jest ./test",
-    "cli": "node .src/cli.js"
+    "cli": "node cli.js ./files/textOne.md"
   },
   "dependencies": {
     "chalk": "^5.0.0",
@@ -38,8 +38,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
     "jest": "^27.4.5",
-    "jest-nyancat-reporter": "^2.0.0",
-    "nodemon": "^2.0.15"
+    "jest-nyancat-reporter": "^2.0.0"
   },
   "jest": {
     "reporters": [
