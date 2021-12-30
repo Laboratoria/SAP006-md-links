@@ -26,7 +26,7 @@
   "preferGlobal": true,
   "scripts": {
     "test": "jest ./test",
-    "cli": "node cli.js ./files/textOne.md"
+    "cli": "node .src/cli.js"
   },
   "dependencies": {
     "chalk": "^5.0.0",
