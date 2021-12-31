@@ -26,7 +26,7 @@
   "preferGlobal": true,
   "scripts": {
     "test": "jest ./test",
-    "cli": "node ./cli.js"
+    "cli": "node cli.js"
   },
   "dependencies": {
     "chalk": "^5.0.0",

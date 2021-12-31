@@ -31,7 +31,7 @@ No terminal, executar o comando:
 
 `npm i md-links-caroalvim`
 
-Após a instalação, execute a lib com o comando `md-links-caroalvim <path-to-file>`
+Após a instalação, execute a lib com o comando `md-links-caroalvim <path-to-file> validate`
 
 *** Lembre-se que o caminho do arquivo pode ser relativo ao diretório de onde você está executando a lib, ou absoluto.
 
