@@ -1,0 +1,3 @@
+{
+    "presets": ["md-links-caroalvim", "@babel/preset-env"]
+}

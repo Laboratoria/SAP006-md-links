@@ -7,25 +7,26 @@
   },
   "license": "ISC",
   "type": "module",
+  "preferGlobal": true,
   "keywords": [
-    "javascript",
+    "Javascript",
     "NodeJs",
-    "markdown"
+    "Markdown",
+    "URL"
   ],
   "author": "Carolina Alvim",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caroAlvim/SAP006-md-links"
+    "url": "git+https://github.com/caroAlvim/SAP006-md-links.git"
   },
-  "description": "Lib to identify links in markdown files and check http status",
+  "description": "Lib to find [links](URL) pattern in markdown files",
   "homepage": "https://github.com/caroAlvim/SAP006-md-links#readme",
   "bugs": {
     "url": "https://github.com/caroAlvim/SAP006-md-links/issues",
     "email": "caro.alvim@gmail.com"
   },
-  "preferGlobal": true,
   "scripts": {
-    "test": "jest ./test",
+    "test": "jest --coverage ./test",
     "cli": "node cli.js"
   },
   "dependencies": {
@@ -37,6 +38,8 @@
     "eslint": "^8.5.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
+    "@babel/preset-env": "^7.16.7",
+    "babel-jest": "^27.4.5",
     "jest": "^27.4.5",
     "jest-nyancat-reporter": "^2.0.0"
   },
