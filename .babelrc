@@ -1,3 +1,3 @@
 {
-    "presets": ["md-links-caroalvim", "@babel/preset-env"]
+    "plugins": ["transform-es2015-modules-commonjs"]
 }
