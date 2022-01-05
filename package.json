@@ -1,6 +1,6 @@
 {
   "name": "md-links-caroalvim",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "./cli.js",
   "bin": {
     "md-links-caroalvim": "./cli.js"
@@ -53,6 +53,5 @@
         }
       ]
     ]
-
   }
 }
