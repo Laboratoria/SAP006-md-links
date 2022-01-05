@@ -19,8 +19,7 @@ describe('getFile::', () => {
         expect(result).toBe('Sem links');
     })
     // it('deve lançar um erro na falta de arquivo', async () => {
-    //     await expect (getFile('/Users/CaroAlvim/Desktop/Laboratoria/SAP006-md-links/files'))
-    //     .rejects.toThrow(/não há arquivo no caminho/)
+    //     await expect (getFile('/Users/CaroAlvim/Desktop/Laboratoria/SAP006-md-links/files')).rejects.toThrow('não há arquivo no caminho');
     //   })
 })
 
